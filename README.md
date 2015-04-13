@@ -1,19 +1,18 @@
-# TreeQuencer - Collaborative Rhythm Sequencing 
-![Screen-shot of prototype 1](p1.png "Screen-shot of prototype 1")
-![Screen-shot of prototype 2](p2.png "Screen-shot of prototype 2")
-![User study](treequencer_happy.png "People using one of the prototypes at the evaluation (video feed)")
+# SoundDesigner - Collaborative Sound Design Based on Perceptual Mapping 
+![Screen-shot of prototype 1](overview.png "Screen-shot of prototype")
+![User study](g2.png "People using one of the prototypes at the evaluation (video feed)")
 
-This is the original source code for the prototypical rhythm sequencing application in the 
+This is the original source code for the prototypical sound design application in the 
 publication:
 
-Klügel, Niklas, Gerhard Hagerer, and Georg Groh. "TreeQuencer: Collaborative Rhythm Sequencing-A Comparative Study"
+Klügel, Niklas, and Becker, Timo, and Georg Groh. "Designing Sound Collaboratively-Perceptually Motivated Audio Synthesis"
 
 Abstract:
-In this contribution we will show three prototypical applications that allow users to collaboratively create rhythmic structures with successively more degrees of freedom to generate rhythmic complexity. By means of a user study we analyze the impact of this on the users’ satisfaction and further compare it to data logged during the experiments that allow us to measure the rhythmic complexity created.
+In this contribution, we will discuss a prototype that allows a group of users to design sound collaboratively in real time using a multi-touch tabletop. We make use of a machine learning method to generate a mapping from perceptual audio features to synthesis parameters. This mapping is then used for visualization and interaction. Finally, we discuss the results of a comparative evaluation study.
 
-which can be found here: http://nime2014.org/proceedings/papers/498_paper.pdf
+which can be found here: http://www.nime.org/proceedings/2014/nime2014_339.pdf and http://arxiv.org/pdf/1406.6012 (extended version)
 
-The TreeQuencer project itself consists of three prototypes that offer slightly different sequencing, you can select the respective prototype in Settings.txt , check the publication for further details about their differences.
+This application relies on a data set which has been published here as well, however the original sampling and timbre space construction method has not been released so far.
 It is originally a tabletop application but the framework also allows use with mouse input apart from TUIO and native win7 touch.
 
 Dependencies:
@@ -23,6 +22,8 @@ Dependencies:
 - checkout and build + sbt publish for each of these
 
 - The real-time audio synthesis uses SuperCollider / ScalaCollider, therefore an additional SuperCollider installation is necessary.
+- External midi input to drive the synthesis algorithms
+- Audio output device with multiple channels (for individial headphone outputs)
 
 
 
