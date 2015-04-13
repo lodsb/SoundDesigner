@@ -5,7 +5,7 @@
 This is the original source code for the prototypical sound design application in the 
 publication:
 
-Klügel, Niklas, and Becker, Timo, and Georg Groh. "Designing Sound Collaboratively-Perceptually Motivated Audio Synthesis"
+Klügel, Niklas and Becker, Timo and Groh Georg. "Designing Sound Collaboratively-Perceptually Motivated Audio Synthesis"
 
 Abstract:
 In this contribution, we will discuss a prototype that allows a group of users to design sound collaboratively in real time using a multi-touch tabletop. We make use of a machine learning method to generate a mapping from perceptual audio features to synthesis parameters. This mapping is then used for visualization and interaction. Finally, we discuss the results of a comparative evaluation study.
