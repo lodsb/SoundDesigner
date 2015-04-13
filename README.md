@@ -18,6 +18,7 @@ It is originally a tabletop application but the framework also allows use with m
 Dependencies:
 - reakt: https://github.com/lodsb/reakt
 - UltraCom: https://github.com/lodsb/UltraCom
+- the Vector phase distortion synth has to be installed (part of the repository)
 
 - checkout and build + sbt publish for each of these
 
